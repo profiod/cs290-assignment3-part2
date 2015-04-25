@@ -1,0 +1,21 @@
+div.left-col{
+  width: 40.5%;
+  margin-left: 6.5%;
+  margin-right: 2%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.right-col{
+  width: 40.5%;
+  margin-left: 2%;
+  margin-right: 6.5%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.content{ 
+background-color: gray; 
+}

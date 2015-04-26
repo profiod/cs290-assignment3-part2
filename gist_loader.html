@@ -7,18 +7,29 @@
   	<script src="gist_processor.js"></script>
   </head>
   <body>
+      <div id="select-button">
+        <span>Pages: </span>
+        <select id="page-numbers">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button id="fetch" onclick = "gist_request()">Fetch</button>
+      </div>
   	<div class="left-col">
   	  <h1>GISTS</h1>
       <div class="content">
-        <ul id="norm-list">
-        </ul>
+        <div id="norm-list">
+        </div>
       </div>
   	</div> 
   	<div class="right-col">
       <h1>Favorite GISTS</h1>
       <div class="content">
-        <ul id="fav-list">
-        </ul>
+        <div id="fav-list">
+        </div>
       </div>
   	</div>
   </body>

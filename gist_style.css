@@ -17,5 +17,38 @@ div.right-col{
 }
 
 div.content{ 
-background-color: gray; 
+background-color: #E0E0EB; 
+}
+
+div#fav-list > div,
+div#norm-list > div{
+  margin-bottom: 5%;
+  margin-right: 2%;
+}
+
+button {
+  margin-right: 1.5%;
+}
+
+div#norm-list > div > button {
+  background-color: #4D94FF; 
+  color: white;
+  font-size: 1.15em;
+}
+
+div#fav-list > div > button { 
+  font-size: 1.20em;
+}
+
+
+button#fetch{
+  background-color: #4D94FF;
+  color: white;
+  font-size: 1.15em;
+}
+
+div#select-button{
+  margin-left: 80%;
+  margin-top: 5%;
+  font-size: 1.15em;
 }
